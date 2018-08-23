@@ -1,0 +1,124 @@
+#top-half {
+    background-color: black;
+}
+
+#logo img {
+    margin:0 auto !important;
+    padding-top: 0px;
+}
+
+.logo {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    padding-top: 20px;
+}
+
+#forImages{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 5.0em;
+    height: 40vh;
+}
+
+.leftimage{
+    width:200px;
+    height:40px;
+}
+
+#intro-title p {
+    color: white;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:800;
+    font-size: 5.0em;
+    padding-top: 1px;
+}
+
+.mh1 div {
+    height: 30vh;
+    text-align: center;
+}
+
+.mh2 div {
+    height: 5vh;
+}
+
+.mh3 div {
+    height: 3vh;
+}
+
+#intro p {
+    color: white;
+    text-align: left;
+    font-family: 'Raleway', cursive;
+    font-size: 1.6em;
+}
+#blankspace p {
+    font-size: 1em;
+}
+
+#bottom-half {
+    background:url('../img/background9.jpg') center center;
+    height: 100%;
+    backgound-size: 300px 100px;
+}
+
+#main p {
+    color:white;
+    text-align: center;
+    font-size: 2em;
+}
+
+.balance-title p{
+    color:white;
+    text-align: center;
+    font-family: 'Just Another Hand', cursive;
+    font-size: 0.05em;
+}
+
+#balance-input {
+    text-align: center;
+}
+#balance-input .form-inline {
+    display: block;
+}
+
+#send-input {
+    text-align: center;
+}
+
+#balance-title{
+    width: 300px;
+    border: 25px solid green;
+    padding: 25px;
+    margin: 25px;
+}
+
+#send-input .form-inline {
+    display: block;
+}
+
+#send-result {
+    color:white;
+    text-align: center;
+    font-family: 'Just Another Hand', cursive;
+    font-size: 5px;
+}
+
+.send-title p{
+    color:white;
+    text-align: center;
+    font-family: 'Just Another Hand', cursive;
+    font-size: 5px;
+}
+
+
+#footer {
+    font-size:small;
+    text-align:center;
+    padding-bottom: 30px;
+    height:20px;
+    color: white;
+    clear: both;
+}
