@@ -9,9 +9,8 @@ contract TestSimpleStorage {
   function testItStoresAValue() public {
     SimpleStorage simpleStorage = SimpleStorage(DeployedAddresses.SimpleStorage());
 
-    simpleStorage.set(89);
-
-    uint expected = 89;
+    simpleStorage.set(90);
+    uint expected = 90;
 
     Assert.equal(simpleStorage.get(), expected, "It should store the value 89.");
   }
